@@ -1,0 +1,95 @@
+{
+    "language" :[
+        {
+            "PHP": {
+                "l":"PHP",
+                "total" :80
+            } ,
+            "NODE": {
+                "l" : "Node JS",
+                "total" : 95
+                
+            },
+            "JS" : {
+                "l":"JavaScript",
+                "total" : 90
+            },
+            "HTML": {
+                "l" : "HTML 5",
+                "total" : 90
+            },
+            "CSS3": {
+                "l" : "CSS 3",
+                "total": 72
+            }
+        }
+    ],
+    "FrameWorks" : [{
+        "NodeJS" : {
+            "f": "EXPRESS JS",
+            "total" : 92
+        },
+        "PHP": {
+            "f" : "CodeIgniter",
+            "total" : 87
+        },
+        "React" : {
+            "f" : "REACT JS",
+            "total" : 70
+        },
+        "Angualar" : {
+            "f" : "ANGULAR",
+            "total" : 60
+        }
+    }],
+    "DB" : [{
+        "MONGO" : {
+            "db": "MongoDB",
+            "total" : 76
+        },
+        "MySQL" : {
+            "db" : "MySQL",
+            "total" : 87
+        },
+        "PostgreSQL" :{
+            "db" : "PostgreSQL",
+            "total" : 85
+        },
+        "MSSQL" : {
+            "db" : "MSSQL",
+            "total" : 80
+        }
+    }],
+    "exp" : [{
+        "Aprendiz de Informática" : {
+            "position" : "Aprendiz de Informática",
+            "company" :"Mapfre Asistencia, Caracas-Venezuela – (2014)",
+            "desc" : "POO y PDO, para construccion de aplicaciones web,\n Mantenimiento y documentacion de codigo existente"
+        },
+        "Analista de CPOV" : {
+            "position" : "Analista de CPOV",
+            "company" :"Mapfre Asistencia, Caracas-Venezuela – (2015)",
+            "desc" : "Creación de Views, Procedure, Trigger, Funciones, condicionamientos \nDashboard de servicios.\n Sistema de Consultas en tiempo real de datos."
+        },
+        "Especialista de CPOV" : {
+            "position" : "Especialista de CPOV",
+            "company" :"Mapfre Asistencia, Caracas-Venezuela – (2017)",
+            "desc" : "Creacion de aplicacion de gestion de activades basadas en metodologias agiles,\n Desarrollo de ERP."
+        },
+        "Programador Semi-SR" : {
+            "position" : "Programador Semi-SR",
+            "company" :"VGT8, Caracas-Venezuela – (2018)",
+            "desc" : "Desarrollo de script de ventas,\n Desarrollo de Intranet, \n Dashboard de Ventas, \n Sistema ERP y CRM"
+        },
+        "Programador Senior" : {
+            "position" : "Programador Senior",
+            "company" :"VGT8, Caracas-Venezuela – (2019)",
+            "desc" : "Desarrollo de ECommerce \n Sistema de Back-Ofice, \n BSC (Balance Score Card)"
+        },
+        "Progamador Backend" : {
+            "position" : "Programador Backend",
+            "company" :"Foca Sotfware, Cordoba-Argentina – (2020)",
+            "desc" : "REST API, \n WebSocket, \n Microservicios, Sistema de Facturacion, Punto de venta"
+        }
+    }]
+}

@@ -1,0 +1,184 @@
+{{> head }}
+
+
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- About -->
+        <div id="about">
+            <div class="container content-lg">
+                <div class="row">
+                        <div class="col-sm-3 sm-margin-b-30">
+                            <div class="text-right sm-text-left">
+                                <h2 class="margin-b-0">Acerda de mi</h2>
+                                <p>Conoce algo de mi.</p>
+                            </div>
+                        </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <div class="margin-b-60">
+                            <p>Amante del desarrollo de software, comprometido desarrollador en constante crecimiento, 
+                               siempre me encuentro en busca de conocimiento, para mantener mis habilidades frescas y puras en el estado del arte. 
+                               <br>
+                               Disfruto programar y encontrar soluciones a problemas reales, me gusta estudiar las tecnologias incipientes.
+                               <br><br>
+                               <pre>I ♥ Javascript.</pre>
+                                </p><br>
+                                <img src="assets/img/icons/php.png">
+                                <img src="assets/img/icons/js.png">
+                                <img src="assets/img/icons/nodejs.png">
+                                <img src="assets/img/icons/json.png">
+                                <img src="assets/img/icons/express.png">
+                                <img src="assets/img/icons/html-5.png">
+                                <img src="assets/img/icons/css.png">
+                                <img src="assets/img/icons/angular.png">
+                                <img src="assets/img/icons/react.png">
+                                <img src="assets/img/icons/mysql.png">
+                                <img src="assets/img/icons/psql.png">
+                                <img src="assets/img/icons/mssql.png">
+                                <img src="assets/img/icons/mongodb.png">
+                                <img src="assets/img/icons/git.png">
+                                <img src="assets/img/icons/docker.png">
+                                <img src="assets/img/icons/strapi.png">
+                                <img src="assets/img/icons/api.png">
+                                <img src="assets/img/icons/graph.png">
+                        </div>
+                     
+                    </div>
+                    
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <div id="conocimientos" >
+            <div class="container content-lg">
+                <div class="row">
+                        <div class="col-sm-3 sm-margin-b-30">
+                            <div class="text-right sm-text-left">
+                                <h2 class="margin-b-0">Conocimientos</h2>
+                            </div>
+                        </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <h3>Lenguajes :</h3>
+                            <!-- Progress Box -->
+                            {{#each language }}
+                                <div class="progress-box">
+                                    <h5> {{ this.l }} <span class="color-heading pull-right"> {{ this.total }} %</span></h5>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-color-base" role="progressbar" data-width="{{ this.total }}"></div>
+                                    </div>
+                                </div>
+                            {{/each}}   
+                            <!-- End Progress Box -->
+                             <br><br>
+                            <h3>Frameworks :</h3>
+                            <!-- Progress Box -->
+                            {{#each frameworks }}
+                                <div class="progress-box">
+                                    <h5> {{ this.f }} <span class="color-heading pull-right"> {{ this.total }} %</span></h5>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-color-base" role="progressbar" data-width="{{ this.total }}"></div>
+                                    </div>
+                                </div>
+                            {{/each}}   
+                            <!-- End Progress Box -->
+
+                             <br><br>
+                            <h3>Databases :</h3>
+                            <!-- Progress Box -->
+                            {{#each db }}
+                                <div class="progress-box">
+                                    <h5> {{ this.db }} <span class="color-heading pull-right"> {{ this.total }} %</span></h5>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-color-base" role="progressbar" data-width="{{ this.total }}"></div>
+                                    </div>
+                                </div>
+                            {{/each}}   
+                            <!-- End Progress Box -->
+                     
+                    </div>
+                    
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End About -->
+        
+        <!-- Experience -->
+        <div id="experience">
+            <div class="bg-color-sky-light" data-auto-height="true">
+                <div class="container content-lg">
+                    <div class="row">
+                        <div class="col-sm-3 sm-margin-b-30">
+                            <div class="text-right sm-text-left">
+                                <h2 class="margin-b-0">Experiencia</h2>
+                                <p>Batman tiene gadgets<br>
+                                Yo tengo JavaScript <br>
+                                Love ♥ JS</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-sm-offset-1">
+                            <div class="row row-space-2 margin-b-4">
+                                {{!-- Empieza aqui --}}
+                                {{#each exp }}
+
+                                    
+                                    <div class="col-md-4 md-margin-b-4">
+                                        <div class="service" data-height="height">
+                                            <div class="service-info">
+                                                <h3>{{ this.position }}</h3>
+                                                    <strong>{{ this.company }}</strong> <br><br>
+                                                <p class="margin-b-5">{{ this.desc }}</p>
+                                            </div>    
+                                            <div class="service-element">
+                                                {{!-- <i class="{{ this.icon }}"></i> --}}
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                {{/each}} 
+                                
+                            </div>
+                            <!--// end row -->
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End Experience -->
+
+      
+            
+        <!-- Contact -->
+        <div id="contact">
+            <div class="bg-color-sky-light">
+                <div class="container content-lg">
+                    <div class="row">
+                        <div class="col-sm-3 sm-margin-b-30">
+                            <div class="text-right sm-text-left">
+                                <h2 class="margin-b-0">Contacto</h2>
+                                <p>Contratame</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-sm-offset-1">
+                            <div class="row">
+                                <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                    <h5>Location</h5>
+                                    <a href="#">Caracas, Venezuela</a>
+                                </div>
+                                <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                    <h5>Phone</h5>
+                                    <a href="#">+58 412 617 89 15</a>
+                                </div>
+                                <div class="col-md-3 col-xs-6">
+                                    <h5>Email</h5>
+                                    <a href="mailto:#">nigeryanes@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End Contact -->
+        <!--========== END PAGE LAYOUT ==========-->
+{{> footer }}
